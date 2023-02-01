@@ -6,7 +6,7 @@
 
 Inside the `src` directory
 
-1. Run
+1. Run:
 
 ```sh
 npm install

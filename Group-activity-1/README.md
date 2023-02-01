@@ -23,6 +23,6 @@
 
 ## Task 3/3: Open feedback
 
-- What problems did you face?
-- What went well in this exercise
+- What problems did you face? - We had a problem with git
+- What went well in this exercise - We managed to make it work after Sami's help
 - Other comments?

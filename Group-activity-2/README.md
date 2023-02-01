@@ -24,7 +24,7 @@ PORT=3001
 
 ## Task 2
 
-- What is the URL of the database?
-- What is the the password for the database?
-- Why are we using `.env` file?
-- How do access environment variables?
+- What is the URL of the database? - mongodb+srv://tivi:SqZsopHbsRtRDO24@cluster0.1x4ks.mongodb.net/tht2?retryWrites=true&w=majority
+- What is the the password for the database? - SqZsopHbsRtRDO24
+- Why are we using `.env` file? - So they're can be stored locally and not be uploaded to code repositories online for everyone to read.
+- How do access environment variables? - process.env.EXAMPLE_ID

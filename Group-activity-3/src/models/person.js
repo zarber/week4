@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const personSchema = new mongoose.Schema({
+const Schema = mongoose.Schema
+const personSchema = new Schema({
   name: {
     type: String,
   },
@@ -7,6 +8,12 @@ const personSchema = new mongoose.Schema({
     type: String,
   },
 });
+
+personSchema.create({ name: 'Arbu', age: 25})
+  .then(personDoc => console.log(`Person has been found: ${personDoc}`))
+  .catch(error =>
+    console.log(`This person does not exit! Try again 😞 ${error}`)
+  );
 
 personSchema.set('toJSON', {
   transform: (document, returnedObject) => {

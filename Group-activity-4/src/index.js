@@ -36,11 +36,11 @@ app.post('/api/cats', (request, response) => {
   });
 });
 
-app.get('/api/notes/:id', (request, response, next) => {
-  Note.findById(request.params.id)
-    .then((note) => {
-      if (note) {
-        response.json(note);
+app.get('/api/cats/:id', (request, response, next) => {
+  Cat.findById(request.params.id)
+    .then((cats) => {
+      if (cats) {
+        response.json(cats);
       } else {
         response.status(404).end();
       }

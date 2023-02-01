@@ -13,7 +13,13 @@ app.get('/', (req, res) => {
 
 app.get('/api/persons', (request, response) => {
   Person.find({}).then((persons) => {
-    response.json(persons.map((person) => person.toJSON()));
+    response.json(persons);
+  });
+});
+
+app.get('/api/notes', (request, response) => {
+  Note.find({}).then((notes) => {
+    response.json(notes);
   });
 });
 

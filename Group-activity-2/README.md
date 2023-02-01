@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-2. create a file `.env` and add the followings:
+2. create a file `.env` and add the following content:
 
 ```text
 MONGODB_URI=mongodb+srv://tivi:SqZsopHbsRtRDO24@cluster0.1x4ks.mongodb.net/tht2?retryWrites=true&w=majority

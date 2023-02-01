@@ -8,6 +8,12 @@
 
 ---
 
+### MongoDB vs SQL
+
+![](./img/sql.png)
+
+---
+
 ### Mongoose
 
 ![](./img/03.jpg)
